@@ -41,9 +41,9 @@ const quotes = [{
 }
 ];
 btn.addEventListener('click' , function(){
-    let random= math.floor(math.random()* quotes.length);
-    quote.innertext=quotes[random].quote;
-    person.innertext=quotes[random].person;
-})
+    let random = Math.floor(Math.random() * quotes.length);
+    quote.innerText=quotes[random].quote;
+    person.innerText=quotes[random].person;
+});
 
 
